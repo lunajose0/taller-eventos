@@ -1,5 +1,4 @@
-divBoton.addEventListener('click', function() {
+divBoton.addEventListener('click', function(event) {
   alert('Hola! Soy el botón');
-  this.stopPropagation();
+  event.stopPropagation();
 });
-
